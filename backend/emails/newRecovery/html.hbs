@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="font-family: 'Roboto', sans-serif; background-color:#F2F1F0; padding: 10%;"
+  >
+    <h1 style="font-family: 'EB Garamond', serif; margin-bottom: 10px;">
+      Matterbase
+    </h1>
+    <div style="background-color:#FFFFFF; padding: 5%;">
+      <div style="margin-bottom: 20px;">Dear {{firstName}},</div>
+      <div>This is a message about the recovery of Matterbase account.</div>
+      <div style="margin-bottom: 30px;">Please ignore this message if you have not raised the request.</div>
+      <div>We have just received an account recovery request for {{email}}</div>
+      <div style="margin-bottom: 10px;">
+        If you did make this request, please continue by clicking the Reset Password button below.
+      </div>
+      <a href={{url}} target="_blank" style="color: inherit; text-decoration: none;">
+        <div style="background-color:#D1BB93; width: 300px; padding: 1px; margin-bottom: 20px; border-radius: 5px;">
+          <h2 style="text-align: center;">Reset Password</h2>
+        </div>
+      </a>
+      <div style="margin-bottom: 20px;">*Please note that this verification link is only valid for 1 hour.</div>
+      <div style="margin-bottom: 30px;">The Matterbase team.</div>
+      <div style="margin-bottom: 20px;">For any question or concern, please contact:</div>
+      <div style="margin-bottom: 20px;">
+        <a href="mailto:info@matterbase.com" style="color: inherit; text-decoration: none;">
+          info@matterbase.com
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
